@@ -1,0 +1,5 @@
+# This is the byte-compiled code created when the program is run, which is not needed in the repo of the project
+__pycache__/
+# This is the virtual environment created by the developer. It is not needed in the repo of the project.
+venv/
+.env
