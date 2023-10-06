@@ -10,7 +10,7 @@ app = FastAPI()
 # Defining routes
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Welcome to RentEZ"}
 
 # Including the routers
 app.include_router(auth_router, prefix="/auth")

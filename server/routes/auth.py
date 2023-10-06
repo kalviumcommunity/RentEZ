@@ -10,7 +10,7 @@ router = APIRouter()
 
 # Defining routes
 @router.post("/register/renter")
-def register_user(user: Renter):
+def register_renter(user: Renter):
     user.password = hash_password(user.password)
     post_renter(user.model_dump())
     return {"message": "User created successfully"}
