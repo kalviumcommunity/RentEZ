@@ -4,4 +4,4 @@ bcrypt
 pymongo
 PyJWT
 python-decouple
-pydantic[email]
+pydantic
